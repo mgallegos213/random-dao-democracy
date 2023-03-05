@@ -2658,7 +2658,7 @@
 
 "@thirdweb-dev/react@^3.9.5":
   version "3.9.5"
-  resolved "https://registry.npmjs.org/@thirdweb-dev/react/-/react-3.9.5.tgz"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/react/-/react-3.9.5.tgz#45e3faf79cbc1d0a5be57ff19533ab158bd1fc7d"
   integrity sha512-Te2QVXlohXh5azks9pgKsgljNx7Pq6AghG+NxaRNHjB0mmDv7JZWL3Km5Jb300G7sxsP6E1pyx0zEJU7P+Ma8Q==
   dependencies:
     "@emotion/react" "^11.10.0"
