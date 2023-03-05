@@ -5,12 +5,19 @@ import Chip from '@mui/material/Chip';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 
+import { ConnectWallet } from "@thirdweb-dev/react";
+
 function App() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
   return (
     <main className="App">
 
+    <ConnectWallet
+      // Some customization of the button style
+      colorMode="light"
+      accentColor="#F213A4"
+    />;
 
       <header style={{ display: "flow-root" }}>
         <span style={{
